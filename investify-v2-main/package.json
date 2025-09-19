@@ -1,0 +1,18 @@
+{
+  "name": "investify-v2-main",
+  "version": "1.0.0",
+  "description": "1",
+  "main": "test.js",
+  "scripts": {
+    "test": "1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "0"
+  },
+  "keywords": [
+    "1"
+  ],
+  "author": "pranjal",
+  "license": "ISC"
+}
