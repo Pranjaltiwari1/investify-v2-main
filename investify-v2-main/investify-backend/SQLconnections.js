@@ -16,7 +16,6 @@ connection.connect((err)=>{
     }
     console.log("Connected to MySQL");
 })
-
 function createTableOrders(tableName){
     const query = `Create table ${tableName} (buy_or_sell varchar(4), shareName varchar(25), price decimal(8,2), qty int, userID varchar(16), date_of_order date)`;
     connection.query(query, function(err,result){
